@@ -133,3 +133,28 @@ img {
     text-align: center;
     color: grey;
 }
+
+@media only screen and (max-width: 600px) {
+
+  #root {
+    width: auto !important;
+  }
+  
+  .whitebg {
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  #profile {
+    width: auto !important;
+    text-align: center;
+  }
+
+  #profile > img {
+    width: 200px;
+  }
+
+  #post {
+    margin-left: 0px;
+  }
+}
