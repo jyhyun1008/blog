@@ -140,12 +140,14 @@ img {
     width: auto !important;
     margin: 10px auto;
     padding: 10px 15px;
-    max-height: calc(100vh - 50px);
+    max-height: auto !important;
   }
 
   .whitebg {
     flex-direction: column;
     overflow: auto;
+    max-height: auto !important;
+    height: auto !important;
   }
 
   #profile {
