@@ -140,13 +140,15 @@ img {
     width: auto !important;
     margin: 10px auto;
     padding: 10px 15px;
-    max-height: auto !important;
+  }
+
+  #wrapper {
+    max-height: fit-content;
   }
 
   .whitebg {
     flex-direction: column;
     overflow: auto;
-    max-height: auto !important;
     height: auto !important;
   }
 
