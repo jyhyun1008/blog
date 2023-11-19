@@ -6,14 +6,14 @@
 }
 
 :root {
-    --accent: #86E3CE;
-    --darkaccent: #058B8C;
+    --accent: #FF9899;
+    --darkaccent: #ffc598;
     --lightgrey: #f6f6f6;
 }
 
 body {
     font-family: 'NanumSquareRound';
-    background-color: grey;
+    background-color: rgb(189, 189, 189);
     background-size: 20px 20px;
     background-image:
       linear-gradient(to right, lightgrey 1px, transparent 1px),
