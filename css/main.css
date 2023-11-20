@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
 @font-face {
     font-family: 'NanumSquareRound';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
@@ -12,7 +14,7 @@
 }
 
 body {
-    font-family: 'NanumSquareRound';
+    font-family: 'Galmuri11';
     background-color: rgb(189, 189, 189);
     background-size: 20px 20px;
     background-image:
