@@ -206,7 +206,7 @@ if (!page) {
     .then(res => res.text())
     .then((out) => {
         document.querySelector("#page_title").innerText = 'INFORMATION'
-        document.querySelector("#page_content").innerHTML += parseMd(out)
+        document.querySelector("#page_content").innerHTML += parseMd('\n'+out)
     })
     .catch(err => { throw err });
 } else if (page == 'blog' && category == 'peachtart') {
@@ -369,7 +369,7 @@ if (!page) {
     .then(res => res.text())
     .then((out) => {
         document.querySelector("#page_title").innerText = page
-        document.querySelector("#page_content").innerHTML += parseMd(out)
+        document.querySelector("#page_content").innerHTML += parseMd('\n'+out)
     })
     .catch(err => { throw err });
 }
