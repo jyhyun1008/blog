@@ -126,7 +126,7 @@ img {
     text-decoration: none;
 }
 
-.page_title {
+#page_title {
     font-size: 2rem;
     text-transform: uppercase;
 }

@@ -7,6 +7,7 @@ const githubRepoName = 'blog' // 깃허브 레포지토리 이름
 function parseMd(md){ // 깃허브 등에 사용하는 마크다운 파일을 html로 변환시켜 줍니다.
     // 정규식으로 되어 있습니다. 자세한 것은 정규식을 공부해 주세요.
 
+    md = "\n"+md
     const md0 = md.replace(/\</gm,"&lt;").replace(/\>/gm, "&gt;");
   
     //ul
@@ -206,7 +207,7 @@ if (!page) {
     .then(res => res.text())
     .then((out) => {
         document.querySelector("#page_title").innerText = 'INFORMATION'
-        document.querySelector("#page_content").innerHTML += parseMd('\n'+out)
+        document.querySelector("#page_content").innerHTML += parseMd(out)
     })
     .catch(err => { throw err });
 } else if (page == 'blog' && category == 'peachtart') {
@@ -369,7 +370,7 @@ if (!page) {
     .then(res => res.text())
     .then((out) => {
         document.querySelector("#page_title").innerText = page
-        document.querySelector("#page_content").innerHTML += parseMd('\n'+out)
+        document.querySelector("#page_content").innerHTML += parseMd(out)
     })
     .catch(err => { throw err });
 }
