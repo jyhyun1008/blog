@@ -365,7 +365,7 @@ if (!page) {
     })
     .catch(err => { throw err });
 } else if (page) {
-    var url = "https://raw.githubusercontent.com/"+githubUserName+"/"+githubRepoName+"/main/pages/"+page+"/.md"
+    var url = "https://raw.githubusercontent.com/"+githubUserName+"/"+githubRepoName+"/main/pages/"+page+".md"
     fetch(url)
     .then(res => res.text())
     .then((out) => {
