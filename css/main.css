@@ -190,6 +190,7 @@ pre {
   }
 
   #wrapper {
+    height: auto !important;
     max-height: fit-content;
   }
 
