@@ -56,7 +56,7 @@ img {
 #wrapper {
     display: flex;
     flex-direction: row;
-    height: 90%;
+    height: 90vh;
     max-height: 640px;
 }
 
@@ -91,6 +91,10 @@ img {
     font-size: 1.2rem;
     color: #000;
     text-decoration: none;
+}
+
+a {
+    color: var(--darkaccent);
 }
 
 #post {

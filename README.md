@@ -1,4 +1,4 @@
-# cyworld-style
+# MINIROOM
 
 ![miniroom](https://image.edaily.co.kr/images/Photo/files/NP/S/2005/10/PS05101700046.JPG)
 
