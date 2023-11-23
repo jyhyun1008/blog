@@ -197,6 +197,7 @@ pre {
     flex-direction: column;
     overflow: auto;
     height: auto !important;
+    width: 100%;
   }
 
   #profile {
