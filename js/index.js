@@ -206,7 +206,7 @@ if (!page) {
     fetch(url)
     .then(res => res.text())
     .then((out) => {
-        document.querySelector("#page_title").innerText = 'INFORMATION'
+        document.querySelector("#page_title").innerText = 'HOME'
         document.querySelector("#page_content").innerHTML += parseMd(out)
     })
     .catch(err => { throw err });
